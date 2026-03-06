@@ -1419,7 +1419,7 @@ $("#graph-save").click(function() {
 
   var context = {
     name: name,
-    period: period,
+    period: custom_dates ? "custom dates" : period,
     group: group,
     unit: unit,
     endDate: endDate.viewDate(),
